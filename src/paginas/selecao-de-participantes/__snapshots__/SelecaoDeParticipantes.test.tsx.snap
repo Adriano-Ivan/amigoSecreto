@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`página de configuração deve ser renderizada corretamente 1`] = `
+<div>
+  <ul
+    class="lista-de-participantes"
+  />
+</div>
+`;

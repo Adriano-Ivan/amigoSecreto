@@ -1,0 +1,13 @@
+.sorteador-cabecalho {
+    display:flex;
+    justify-content: center;
+    background-color:rgba(75, 105, 253, 1);
+    padding-top: 40px;
+    flex-wrap: wrap;
+    min-height: 25vh;
+    margin-bottom: -55px;
+}
+
+.sorteador-cabecalho-participante-imagem {
+    margin-bottom: -30px;
+}

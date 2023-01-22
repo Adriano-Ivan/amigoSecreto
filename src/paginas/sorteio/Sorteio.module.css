@@ -1,0 +1,85 @@
+.formulario-sortear {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-sortear-participantes{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 75px;
+    color: #4B69FD;
+}
+
+
+.formulario-select-sortear{
+    box-sizing: border-box;
+    width: 476px;
+    height: 75px;
+
+    background: #FFFFFF;
+   
+    border: 2px solid #000000;
+    box-shadow: 4px 4px 0px #000000;
+    border-radius: 32px;
+}
+
+.formulario-sortear-aviso{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #444444;
+
+    mix-blend-mode: normal;
+}
+
+.formulario-sortear-submit{
+    width: 227px;
+    height: 80px;
+
+    background: #FE652B;
+    mix-blend-mode: normal;
+    border: 2px solid #000000;
+    box-shadow: 2px 2px 0px #000000;
+    border-radius: 37.5px;
+
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.formulario-sortear-pessoa-sorteada{
+    width: 226px;
+    height: 31px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    color: rgba(254, 101, 43, 0.99);
+
+    mix-blend-mode: normal;
+    margin: 20px;
+}

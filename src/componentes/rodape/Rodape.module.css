@@ -1,0 +1,22 @@
+.botao-de-ir-para-sorteio {
+    box-sizing: border-box;
+    width: 351px;
+    height: 80px;
+    left: 149px;
+    top: 829px;
+
+    background: #FE652B;
+    mix-blend-mode: normal;
+    border: 2px solid #000000;
+    box-shadow: 4px 4px 0px #000000;
+    border-radius: 37.5px;
+    color: #fff;
+}
+
+.rodape{
+    display:flex;
+    justify-content: space-around;
+    width: 95%;
+    align-items: center;
+    margin-bottom: 50px;
+}
