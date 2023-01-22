@@ -1,7 +1,17 @@
 .formulario-selecionar-participantes{
     display: flex;
+   flex-direction: column;
+}
+.formulario-selecionar-participantes-aviso-duplicacao{
+    display:block;
+    padding: 20px;
+    border: 1px solid #ff0022;
+    background-color: #db3b508c;
 }
 
+.formulario-container-input{
+    display:flex;
+}
 .input-formulario-selecionar-participantes{
     
     width: 500px;

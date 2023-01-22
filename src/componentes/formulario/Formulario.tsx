@@ -23,6 +23,7 @@ const Formulario = () => {
     return (
         <form className={`${styles['formulario-selecionar-participantes']}`} 
         onSubmit={adicionarParticipante}>
+                <div className={`${styles['formulario-container-input']}`}>
                 <input 
                     className={`${styles['input-formulario-selecionar-participantes']}`}
                     ref={inputRef}
@@ -32,7 +33,8 @@ const Formulario = () => {
                     placeholder="Insira os nomes dos participantes"
                 />
                 <button className={`${styles['botao-formulario-selecionar-participantes']}`}  disabled={!nome}>Adicionar</button>
-                {mensagemDeErro && <p role="alert">{mensagemDeErro}</p>}
+                </div>
+                {mensagemDeErro && <p className={`${styles['formulario-selecionar-participantes-aviso-duplicacao']}`}  role="alert">{mensagemDeErro}</p>}
             </form>
         )
 }

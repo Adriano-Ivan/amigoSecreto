@@ -25,6 +25,10 @@ const Sorteio = () => {
         } else if(participanteDaVez.trim() === ""){
             definirPadrao();
         }
+
+        setTimeout(()=>{
+            setAmigoSecreto("");
+        },5000);
     }
 
     return (
